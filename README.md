@@ -22,14 +22,16 @@ Once deployed or opened over your local network:
 
 ## Deploy to GitHub Pages
 
-This repo already includes a GitHub Pages workflow at `.github/workflows/pages.yml`.
+This project is set up for the simplest GitHub Pages option: deploy directly from the `main` branch root.
 
 After this folder is pushed to a GitHub repository:
 
 1. Open the repository on GitHub
 2. Go to `Settings` -> `Pages`
-3. Under `Build and deployment`, set `Source` to `GitHub Actions`
-4. Push to `main`
+3. Under `Build and deployment`, set `Source` to `Deploy from a branch`
+4. Choose branch `main`
+5. Choose folder `/(root)`
+6. Click `Save`
 
 GitHub will publish the site automatically.
 
